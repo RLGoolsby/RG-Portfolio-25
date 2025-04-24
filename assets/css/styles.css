@@ -334,6 +334,13 @@ label:focus-visible {
         display: none;
     }
 
+    .bio-description-wrapper {
+        width: 100%;
+    }
+
+    .image-container {
+        display: none;
+    }
 }
 
 /* ==========================================================================
