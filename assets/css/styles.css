@@ -590,6 +590,35 @@ ul.repository-list {
     padding-bottom: 1em;
 }
 
-#contact {
-    background-color: #000;
+
+@media (max-width: 768px) {
+    .bio-description-wrapper {
+        width: 90%;
+        padding: 1em;
+    }
+
+    .bio-description {
+        font-size: 16px;
+    }
+
+    .image-container {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bio-description-wrapper {
+        width: 100%;
+        padding: 0.5em;
+    }
+
+    .bio-description {
+        font-size: 14px;
+    }
+
+    .image-container {
+        width: 150px;
+        height: 150px;
+    }
 }
