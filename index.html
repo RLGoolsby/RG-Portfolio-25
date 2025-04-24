@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Rhonda Goolsby - Frontend Web Developer">
+    <meta name="author" content="Rhonda Goolsby">
+    <meta name="keywords" content="Rhonda Goolsby, Frontend Web Developer, Portfolio, Bootstrap, HTML5, CSS3">
+
+    <!-- Bootstrap core CSS (Only one is needed) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="..." crossorigin="anonymous">
+
+    <!-- Optional: Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- jQuery (since you're using jQuery!) -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!--Navicon Icons -->
+    <script scr="https://cdn.jsdelivr.net/npm/navicons@6.0.4/dist/index.cjs.min.js"></script>
+
+    <title>Rhonda Goolsby - Portfolio</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/justified-nav.css">
+    <link rel="preload" href="assets/images/IMG_2432.webp" as="image" type="image/webp">
+    <link rel="preload" href="assets/images/IMG_2432.jpeg" as="image" type="image/jpeg">
+
+</head>
+<a href="#home" class="skip-link">Skip to main content</a>
+
+<body>
+
+    <header class="header" role="banner">
+        <!-- Logo -->
+        <h1 class="logo-heading">
+            <a href="#" class="logo" aria-label="Homepage - Rhonda Goolsby">Rhonda Goolsby</a>
+        </h1>
+
+        <nav role="navigation" aria-label="Main navigation">
+            <!-- Menu Button -->
+            <input class="menu-btn" type="checkbox" id="menu-btn" aria-label="Toggle navigation menu"
+                aria-expanded="false">
+            <span class="menu-icon"></span>
+
+            <!-- Icon Label -->
+            <label class="menu-icon" for="menu-btn" aria-controls="menu" aria-expanded="false">
+                <span class="navicon" aria-hidden="true"><i class="fa-solid fa-bars"></i></span>
+            </label>
+
+            <!-- Menu List -->
+            <ul class="menu" role="menu">
+                <li role="none"><a role="menuitem" href="#home">Home</a></li>
+                <li role="none"><a role="menuitem" href="#bio">About</a></li>
+                <li role="none"><a role="menuitem" href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="content-wrapper" role="main">
+        <!-- Intro Section -->
+        <section id="home" aria-labelledby="intro-heading">
+            <div class="slide-right">
+                <h1 id="intro-heading" class="cover-heading">Frontend Web Developer</h1>
+            </div>
+            <div class="slide-left">
+                <p class="title">"Life is either a daring adventure or nothing at all."</p>
+            </div>
+            <a href="#bio" class="btn btn-circle page-scroll" aria-label="Scroll down to About section">
+                <i class="fa-solid fa-angles-down fa-lg animated" style="color: #8edd9e;" aria-hidden="true"></i>
+                <span class="sr-only">Scroll down</span>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="bio" aria-labelledby="about-heading">
+            <div class="caption fadeIn">
+                <h2 id="about-heading" class="section-heading">About Me</h2>
+                <span class="sr-only">About Me</span>
+            </div>
+            <div class="bio-description-wrapper">
+                <p class="bio-description">My journey into frontend web development wasn't traditional—but it was fueled
+                    by
+                    curiosity and a passion for creativity.
+                    I was looking for a challenge that would let me build visually engaging, interactive experiences. I
+                    found that
+                    in coding.</p>
+                <p class="bio-description">Over the past few years, I’ve built responsive, accessible web applications
+                    using
+                    HTML, CSS, JavaScript, and
+                    jQuery—often collaborating with designers, marketers, and backend developers. I love turning complex
+                    ideas
+                    into clean,
+                    intuitive user interfaces and continually exploring new tools to create polished digital
+                    experiences.</p>
+            </div>
+            <picture class="image-container">
+                <source srcset="assets/images/profile-25.jpeg" type="image/webp" loading="lazy" decoding="async">
+                <source srcset="assets/images/profile-25.jpeg" type="image/jpeg" loading="lazy" decoding="async">
+                <img class="img-responsive" src="assets/images/profile-25.jpeg" alt="Portrait of Rhonda Goolsby"
+                    loading="lazy" decoding="async">
+            </picture>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" aria-labelledby="projects-heading">
+            <div class="caption fadeIn">
+                <h2 id="projects-heading" class="section-heading">Projects</h2>
+
+                <!-- <div class="fade-out">
+        <h2 id="projects-heading" class="section-heading">Projects</h2>
+      </div> -->
+                <span class="sr-only">Projects</span>
+            </div>
+            <div class="grid-section">
+
+                <!-- Project 1 -->
+                <div class="column one">
+                    <h3 class="repository" id="seasonal">Seasonal Crops</h3>
+                    <p class="repository-description">
+                        Nested Accordion<br>
+                        <span class="sr-only">Instructions: visit site and click on accordion panels</span>
+                    </p>
+                    <ul class="repository-list">
+                        <li class="site">
+                            <a href="https://rlgoolsby.github.io/Seasonal-Crops-accordion/" target="_blank"
+                                rel="noopener" class="btn btn-primary" role="button">
+                                Visit Site <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                        <li class="github">
+                            <a href="https://github.com/RLGoolsby/Seasonal-Crops-accordion" target="_blank"
+                                rel="noopener" class="btn btn-primary" role="button">
+                                GitHub <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="column two">
+                    <h3 class="repository" id="icon-grid">Responsive Icon Grid</h3>
+                    <p class="repository-description">
+                        CSS Transition/Transform Exercise<br>
+                        <span class="sr-only">Instructions: visit site and hover over icons</span>
+                    </p>
+                    <ul class="repository-list">
+                        <li class="site">
+                            <a href="https://rlgoolsby.github.io/responsive-icon-grid-c7/" target="_blank"
+                                rel="noopener" class="btn btn-primary" role="button">
+                                Visit Site <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                        <li class="github">
+                            <a href="https://github.com/RLGoolsby/responsive-icon-grid-c7/tree/gh-pages" target="_blank"
+                                rel="noopener" class="btn btn-primary" role="button">
+                                GitHub <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="column three">
+                    <h3 class="repository" id="imgslider">Image Slider</h3>
+                    <p class="repository-description">
+                        Responsive 3D Image Slider<br>
+                        <span class="sr-only">Instructions: visit site and navigate through images</span>
+                    </p>
+                    <ul class="repository-list">
+                        <li class="site">
+                            <a href="https://rlgoolsby.github.io/ImageSlider/" target="_blank" rel="noopener"
+                                class="btn btn-primary" role="button">
+                                Visit Site <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                        <li class="github">
+                            <a href="https://github.com/RLGoolsby/ImageSlider" target="_blank" rel="noopener"
+                                class="btn btn-primary" role="button">
+                                GitHub <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Projects Section -->
+    </main>
+    <!-- end of .content-wrapper -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
