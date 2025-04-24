@@ -333,39 +333,6 @@ label:focus-visible {
     .header .menu-icon {
         display: none;
     }
-
-    .bio-description-wrapper {
-        width: 60%;
-    }
-
-    .image-container {
-        width: 280px;
-        height: 280px;
-        border-radius: 50%;
-        overflow: hidden;
-        margin: 0;
-        box-shadow: 0 0 0 38px hsl(0deg 1.87% 11.55% / 12%), 0 0 0 15px #020202;
-    }
-
-    #projects {
-        width: 100%;
-        min-width: 100vh;
-    }
-
-    .grid-section {
-        max-width: 1280px;
-        width: 100%;
-    }
-
-    .bio-description {
-        font-family: "Lato", sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        letter-spacing: 1px;
-        text-align: left;
-        font-size: 18px;
-        padding: 2px 0;
-    }
 }
 
 /* ==========================================================================
@@ -499,15 +466,17 @@ fa-brands,
    Caption and Repository Sections
    ========================================================================== */
 #projects {
-    text-align: center;
+    width: 100%;
+    min-width: 100vh;
 }
+
 
 .caption {
     opacity: 0;
     transition: opacity 0.5s ease;
     width: 100%;
     padding: 1em 0;
-    margin: 0.5em auto;
+    margin: auto;
     color: #8edd9e;
     font-size: 1em;
     font-weight: 600;
@@ -584,8 +553,8 @@ ul.repository-list {
     color: #fff;
     background-color: #010101a3;
     word-wrap: break-word;
-    width: 100%;
-    padding: 2.5em;
+    width: 60%;
+    padding: 2em;
     box-shadow: 0 0 0 38px hsl(0deg 1.38% 11.88% / 9%),
         0 0 0 6px hsl(0deg 3% 12.15% / 57%),
         0 0 0 21px hsl(0deg 2.33% 19.84% / 31%);
@@ -613,7 +582,6 @@ ul.repository-list {
 }
 
 .image-container {
-    display: none;
     width: 280px;
     height: 280px;
     border-radius: 50%;
