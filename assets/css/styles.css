@@ -466,8 +466,6 @@ fa-brands,
    Caption and Repository Sections
    ========================================================================== */
 
-
-
 .caption {
     opacity: 0;
     transition: opacity 0.5s ease;
