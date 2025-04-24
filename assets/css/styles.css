@@ -346,6 +346,26 @@ label:focus-visible {
         margin: 0;
         box-shadow: 0 0 0 38px hsl(0deg 1.87% 11.55% / 12%), 0 0 0 15px #020202;
     }
+
+    #projects {
+        width: 100%;
+        min-width: 100vh;
+    }
+
+    .grid-section {
+        max-width: 1280px;
+        width: 100%;
+    }
+
+    .bio-description {
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: 1px;
+        text-align: left;
+        font-size: 18px;
+        padding: 2px 0;
+    }
 }
 
 /* ==========================================================================
@@ -478,6 +498,9 @@ fa-brands,
 /* ==========================================================================
    Caption and Repository Sections
    ========================================================================== */
+#projects {
+    text-align: center;
+}
 
 .caption {
     opacity: 0;
@@ -492,7 +515,7 @@ fa-brands,
 }
 
 .grid-section {
-    max-width: 1280px;
+    max-width: 100%;
     width: 100%;
     padding: 1em;
     display: grid;
