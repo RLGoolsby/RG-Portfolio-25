@@ -484,7 +484,6 @@ fa-brands,
 }
 
 .grid-section {
-    max-width: 100%;
     width: 100%;
     padding: 1em;
     display: grid;
