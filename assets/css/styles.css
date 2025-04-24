@@ -335,11 +335,16 @@ label:focus-visible {
     }
 
     .bio-description-wrapper {
-        width: 100%;
+        width: 60%;
     }
 
     .image-container {
-        display: none;
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0;
+        box-shadow: 0 0 0 38px hsl(0deg 1.87% 11.55% / 12%), 0 0 0 15px #020202;
     }
 }
 
@@ -556,7 +561,7 @@ ul.repository-list {
     color: #fff;
     background-color: #010101a3;
     word-wrap: break-word;
-    width: 60%;
+    width: 100%;
     padding: 2.5em;
     box-shadow: 0 0 0 38px hsl(0deg 1.38% 11.88% / 9%),
         0 0 0 6px hsl(0deg 3% 12.15% / 57%),
@@ -585,6 +590,7 @@ ul.repository-list {
 }
 
 .image-container {
+    display: none;
     width: 280px;
     height: 280px;
     border-radius: 50%;
