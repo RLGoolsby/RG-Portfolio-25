@@ -412,6 +412,10 @@ section {
     }
 }
 
+.animated {
+    font-size: 33px;
+}
+
 .slide-left,
 .animated {
     animation: slide-left 1s linear 0.5s forwards;
