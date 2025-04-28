@@ -555,6 +555,16 @@ ul.repository-list {
     align-items: center;
 }
 
+.grid-bio-section {
+    max-width: 1280px;
+    width: 100%;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 1em;
+    align-items: center;
+    justify-items: stretch;
+}
 
 .bio-description-wrapper {
     color: #fff;
@@ -565,6 +575,11 @@ ul.repository-list {
     box-shadow: 0 0 0 38px hsl(0deg 1.38% 11.88% / 9%),
         0 0 0 6px hsl(0deg 3% 12.15% / 57%),
         0 0 0 21px hsl(0deg 2.33% 19.84% / 31%);
+}
+
+.column .a,
+.column .b {
+    border-radius: none;
 }
 
 .bio-description {
@@ -580,13 +595,8 @@ ul.repository-list {
 /* ==========================================================================
    Images
    ========================================================================== */
+.image-of-me .column b {}
 
-.img-responsive {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
 
 .image-container {
     width: 280px;
@@ -595,6 +605,13 @@ ul.repository-list {
     overflow: hidden;
     margin: 0;
     box-shadow: 0 0 0 38px hsl(0deg 1.87% 11.55% / 12%), 0 0 0 15px #020202;
+}
+
+.img-responsive {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .site,
