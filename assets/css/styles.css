@@ -583,7 +583,7 @@ ul.repository-list {
 
 .image-container {
     width: 280px;
-    height: 280px;
+    height: auto;
     border-radius: 50%;
     overflow: hidden;
     margin: 0;
