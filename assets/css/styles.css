@@ -543,7 +543,7 @@ ul.repository-list {
    ========================================================================== */
 
 #bio {
-    width: 100%;
+    /* width: 100%;
     height: auto;
     overflow: auto;
     margin: auto;
@@ -552,7 +552,7 @@ ul.repository-list {
     min-width: 100vh;
     justify-content: center;
     align-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .grid-bio-section {
@@ -577,11 +577,6 @@ ul.repository-list {
         0 0 0 21px hsl(0deg 2.33% 19.84% / 31%);
 }
 
-.column .a,
-.column .b {
-    border-radius: none;
-}
-
 .bio-description {
     font-family: "Lato", sans-serif;
     font-weight: 300;
@@ -595,8 +590,6 @@ ul.repository-list {
 /* ==========================================================================
    Images
    ========================================================================== */
-.image-of-me .column b {}
-
 
 .image-container {
     width: 280px;
