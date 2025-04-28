@@ -548,6 +548,9 @@ ul.repository-list {
 #bio {
     padding: 2em 4em;
     background-color: #000b0b;
+    background-image: none !important;
+    background-size: cover;
+    background-position: center
 }
 
 .grid-bio-section {
