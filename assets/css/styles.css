@@ -499,6 +499,7 @@ fa-brands,
     grid-gap: 1em;
     align-items: center;
     justify-items: stretch;
+    margin: auto;
 }
 
 .column {
@@ -543,38 +544,27 @@ ul.repository-list {
    ========================================================================== */
 
 #bio {
-    /* width: 100%;
-    height: auto;
-    overflow: auto;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    min-width: 100vh;
-    justify-content: center;
-    align-content: center;
-    align-items: center; */
+    padding: 2em 4em;
 }
 
 .grid-bio-section {
-    max-width: 1280px;
-    width: 100%;
     padding: 1em;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    display: inline-flex;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     grid-gap: 1em;
-    align-items: center;
-    justify-items: stretch;
+    /* align-items: center; */
+    justify-items: center;
+    justify-content: space-evenly;
+    margin: auto;
 }
 
 .bio-description-wrapper {
     color: #fff;
     background-color: #010101a3;
     word-wrap: break-word;
-    width: 60%;
-    padding: 2em;
-    box-shadow: 0 0 0 38px hsl(0deg 1.38% 11.88% / 9%),
-        0 0 0 6px hsl(0deg 3% 12.15% / 57%),
-        0 0 0 21px hsl(0deg 2.33% 19.84% / 31%);
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 0 0 26px hsl(0deg 1.38% 11.88% / 9%), 0 0 0 6px hsl(0deg 3% 12.15% / 57%), 0 0 0 16px hsl(0deg 2.33% 19.84% / 31%);
 }
 
 .bio-description {
