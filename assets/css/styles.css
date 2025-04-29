@@ -586,7 +586,13 @@ ul.repository-list {
 @media screen and (max-width: 600px) {
     .grid-bio-section {
         display: flex;
-
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        margin: auto;
+        width: 100%;
+        max-width: 600px;
     }
 }
 
