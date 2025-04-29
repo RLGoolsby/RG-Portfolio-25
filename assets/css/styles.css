@@ -547,7 +547,7 @@ ul.repository-list {
    ========================================================================== */
 
 #bio {
-    padding: 2em 10em;
+    padding: 2em 8em;
     background-color: #000b0b;
     background-image: none !important;
     background-size: cover;
@@ -560,7 +560,6 @@ ul.repository-list {
     grid-gap: 1em;
     align-items: center;
     justify-items: center;
-    margin: auto;
     align-content: center;
     justify-content: space-evenly;
 }
