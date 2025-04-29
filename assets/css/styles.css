@@ -388,7 +388,15 @@ span.bywho {
     padding: 0px 10px;
 }
 
+@media screen and (max-width: 768px) {
+    .cover-heading {
+        font-size: 3em;
+    }
 
+    .title {
+        font-size: 1.2em;
+    }
+}
 
 /* ==========================================================================
    Slide Animations
