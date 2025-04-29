@@ -555,7 +555,7 @@ ul.repository-list {
    ========================================================================== */
 
 #bio {
-    padding: 2em;
+    padding: 0em 2em;
     background-color: #000b0b;
     background-image: none !important;
     background-size: cover;
