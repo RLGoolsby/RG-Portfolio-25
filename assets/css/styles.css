@@ -408,8 +408,12 @@ ul.icon-list {
     align-items: stretch;
 }
 
+img.icon-img {
+    margin-bottom: 2.5em;
+}
+
 ul.icon-list-top {
-    padding: 0em 14em;
+    padding: 0em 10em;
     display: flex;
     flex-direction: row;
     justify-content: center;
