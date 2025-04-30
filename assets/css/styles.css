@@ -413,13 +413,12 @@ img.icon-img {
 }
 
 ul.icon-list-top {
-    padding: 0em 10em;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content: space-between;
-    flex-wrap: nowrap;
-    align-items: stretch;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 @media screen and (max-width: 768px) {
