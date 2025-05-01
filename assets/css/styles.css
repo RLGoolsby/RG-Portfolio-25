@@ -522,19 +522,21 @@ fa-brands,
     font-size: 1em;
     font-weight: 500;
     text-align: center;
-    padding: 1em;
+    padding: 0em;
+    margin-bottom: 0.5em;
 }
+
 
 .grid-section {
     max-width: 1280px;
     width: 100%;
-    padding: 1em;
+    padding: 0em;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-    grid-gap: 1em;
+    grid-gap: 0.5em;
     align-items: center;
     justify-items: stretch;
-    margin: auto;
+
 }
 
 .column {
