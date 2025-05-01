@@ -139,7 +139,7 @@ label:focus-visible {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 1rem;
+    padding: 0.2rem;
     background-color: rgba(0, 0, 0, 1);
     transition: background-color 0.5s, padding 0.5s;
     flex-direction: column;
@@ -395,21 +395,9 @@ section {
     font-family: "Lato", Verdana, sans-serif;
 }
 
-ul.icon-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    padding: 0em 35em;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-content: space-between;
-    flex-wrap: nowrap;
-    align-items: stretch;
-}
-
 
 ul.icon-list-top {
+    padding: 0em 0em 1em 2em;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -455,6 +443,11 @@ ul.icon-list-top {
 
 .animated {
     font-size: 33px;
+}
+
+.animated:hover {
+    font-size: 40px;
+    transition: all 0.3s ease-in-out;
 }
 
 .slide-left,
