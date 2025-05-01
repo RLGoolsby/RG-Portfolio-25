@@ -27,3 +27,11 @@
     border: 1px solid transparent;
     border-radius: 4px;
 }
+
+a.btn.btn-circle.page-scroll {
+    border: none !important;
+}
+
+.btn:active {
+    outline: none !important;
+}
