@@ -447,6 +447,7 @@ ul.icon-list-top {
 
 .animated:hover {
     font-size: 40px;
+    scale: (1.1);
     transition: all 0.3s ease-in-out;
 }
 
