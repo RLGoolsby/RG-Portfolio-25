@@ -378,11 +378,18 @@ section {
 }
 
 .cover-heading {
-    color: #000;
+    /* color: #000;
     font-size: 5em;
     font-weight: 500;
     text-shadow: 2px 2px 2px hsl(167.99deg 31.09% 92.66%);
-    font-family: "Lato", Verdana, sans-serif;
+    font-family: "Lato", Verdana, sans-serif; */
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    /* text-shadow: 1px 2px 4px #282828; */
+    text-shadow: -2px 0px 4px #76ddf263;
 }
 
 .title {
