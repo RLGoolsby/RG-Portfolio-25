@@ -386,12 +386,13 @@ section {
     color: #000;
     font-size: 5em;
     font-family: 'Open sans', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
     letter-spacing: 9px;
     text-transform: uppercase;
     /* text-shadow: 1px 2px 4px #282828; */
-    text-shadow: -2px 0px 4px #76ddf263;
+    text-shadow: -2px 0px 4px hsl(196, 85%, 84%);
+    /* text-shadow: 2px 2px 2px hsl(167.99deg 31.09% 92.66%); */
 }
 
 .title {
