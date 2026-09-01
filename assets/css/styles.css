@@ -391,7 +391,7 @@ section {
     letter-spacing: 9px;
     text-transform: uppercase;
     /* text-shadow: 1px 2px 4px #282828; */
-    text-shadow: -2px 0px 4px hsl(196, 85%, 84%);
+    text-shadow: -2px 1px 4px hsl(196, 85%, 84%);
     /* text-shadow: 2px 2px 2px hsl(167.99deg 31.09% 92.66%); */
 }
 
