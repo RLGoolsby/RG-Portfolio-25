@@ -29,7 +29,6 @@
 		}
 	},
 	// Automated script that runs right after the container is safely created
-	"postCreateCommand": "npm install",
-	// Ensures permissions align with the 'node' user inside the container image
+	"postCreateCommand": "git config --global --add safe.directory /workspaces/RG-Portfolio-25 && npm install",
 	"remoteUser": "node"
 }
