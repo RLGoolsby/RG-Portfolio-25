@@ -1,12 +1,14 @@
 {
 	"name": "Node.js Vite React TS & Bootstrap Dev Environment",
-	// Pulls an official, optimized devcontainer image pre-bundled with Node.js and features like Git
-	"image": "://microsoft.com",
+	// Instructs VS Code to build a local custom image rather than pull an off-the-shelf image
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": "." // Sets the build context to the .devcontainer folder
+	},
 	// Customizes features and settings inside the container
 	"customizations": {
 		"vscode": {
 			"settings": {
-				// Sets default Linux terminal in container
 				"terminal.integrated.defaultProfile.linux": "bash"
 			},
 			"extensions": [
@@ -16,11 +18,10 @@
 			]
 		}
 	},
-	// Forwards Vite's default dev server port (5173) to your local host machine
+	// Forwards Vite's default dev server port to your host machine
 	"forwardPorts": [
 		5173
 	],
-	// Ensures container maps the port seamlessly to localhost:5173
 	"portsAttributes": {
 		"5173": {
 			"label": "Vite Dev Server",
