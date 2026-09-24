@@ -1,23 +1,7 @@
 {
-    "compilerOptions": {
-        "module": "ESNext",
-        "moduleResolution": "Bundler",
-        "target": "ES2024",
-        "jsx": "react-jsx",
-        "checkJs": true,
-        "experimentalDecorators": false,
-        "strictNullChecks": true,
-        "strictFunctionTypes": true,
-        "strict": true,
-        "sourceMap": true
-    },
-     "include": [
-      "src_tests/**/*",
-      "**/src/**/*" 
-  ],
-    "exclude": [
-        "node_modules",
-        "**/node_modules/*",
-      ".devcontainer"  
-    ]
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
 }
