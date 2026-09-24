@@ -1,28 +1,34 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
 {
-	"name": "Node React TS Bootstrap Dev Environment",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/typescript-node:5-24-trixie",
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [
-		3000,
-		5173
-	],
-	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "yarn install",
-	// Configure tool-specific properties inside the container
+	"name": "Node.js Vite React TS & Bootstrap Dev Environment",
+	// Pulls an official, optimized devcontainer image pre-bundled with Node.js and features like Git
+	"image": "://microsoft.com",
+	// Customizes features and settings inside the container
 	"customizations": {
 		"vscode": {
+			"settings": {
+				// Sets default Linux terminal in container
+				"terminal.integrated.defaultProfile.linux": "bash"
+			},
 			"extensions": [
 				"dbaeumer.vscode-eslint",
 				"esbenp.prettier-vscode",
-				"dsznajder.es7-react-js-snippets"
+				"ms-vscode.vscode-typescript-next"
 			]
 		}
-	}
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+	},
+	// Forwards Vite's default dev server port (5173) to your local host machine
+	"forwardPorts": [
+		5173
+	],
+	// Ensures container maps the port seamlessly to localhost:5173
+	"portsAttributes": {
+		"5173": {
+			"label": "Vite Dev Server",
+			"onAutoForward": "notify"
+		}
+	},
+	// Automated script that runs right after the container is safely created
+	"postCreateCommand": "npm install",
+	// Ensures permissions align with the 'node' user inside the container image
+	"remoteUser": "node"
 }
