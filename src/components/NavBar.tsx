@@ -1,3 +1,4 @@
+// src/components/NavBar.tsx
 import React from 'react';
 import { Navbar as BspNavbar, Nav, Container } from 'react-bootstrap';
 
